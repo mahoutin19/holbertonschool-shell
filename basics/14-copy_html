@@ -1,2 +1,5 @@
 #!/bin/bash
 find . -maxdepth 1 -name "*.html" -exec rsync -u {} .. \;
+[file_does_not_contain] Pattern not found: &&
+[file_does_not_contain] Pattern not found: ||
+[file_does_not_contain] Pattern found: ;
